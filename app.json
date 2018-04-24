@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/main/home",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EAEAEA",
+    "navigationBarTitleText": "米家商城",
+    "navigationBarTextStyle":"black"
+  }
+}

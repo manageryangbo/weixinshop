@@ -1,0 +1,20 @@
+<!--pages/main/home.wxml-->
+<view class='detailTitle'>商品详情</view>
+<view class='container'>
+  <view class='separator'></view>
+  <swiper  indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" style='height:{{height}}px;' interval="{{interval}}"  duration="{{duration}}">
+    <block  wx:for-items="{{gooddetails[0].banner}}">
+      <swiper-item>
+        <image src="{{item.pic_url}}" class="detail-slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='separator'></view>
+  <view class='goodsdetails' >小米商城智能特价手机（新品）</view>
+  <view class='goodspricetab' >
+    价格:￥
+    <view class='goodsprice'>500</view> 
+  </view>
+</view>
+
